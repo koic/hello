@@ -4,6 +4,4 @@ gulp.task('hello', function() {
   console.log('hello, world');
 });
 
-gulp.task('default', function() {
-  gulp.run('hello');
-});
+gulp.task('default', ['hello']);
